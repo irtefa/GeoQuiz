@@ -28,7 +28,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -65,6 +64,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -77,21 +77,28 @@
       <file leaf-file-name="QuizActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/QuizActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="330" selection-end="330" vertical-scroll-proportion="-0.76642334" vertical-offset="525" max-vertical-offset="1650">
+            <state line="103" column="64" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.82168674" vertical-offset="994" max-vertical-offset="1620">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1173#1177#0" expanded="true" />
-                <element signature="e#1275#1279#0" expanded="true" />
-                <element signature="e#1704#1933#0" expanded="true" />
-                <element signature="e#1922#1923#0" expanded="true" />
-                <element signature="e#2039#2197#0" expanded="true" />
-                <element signature="e#2186#2187#0" expanded="true" />
-                <element signature="e#2305#2464#0" expanded="true" />
-                <element signature="e#2453#2454#0" expanded="true" />
-                <element signature="e#2570#2799#0" expanded="true" />
-                <element signature="e#2788#2789#0" expanded="true" />
-                <element signature="e#2905#3144#0" expanded="true" />
-                <element signature="e#3133#3134#0" expanded="true" />
+                <element signature="e#2113#2271#0" expanded="true" />
+                <element signature="e#2260#2261#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_quiz.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/res/layout-land/activity_quiz.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="-3.925926" vertical-offset="239" max-vertical-offset="840">
+              <folding>
+                <element signature="e#879#900#0" expanded="true" />
+                <element signature="e#1101#1123#0" expanded="true" />
+                <element signature="e#1374#1395#0" expanded="true" />
+                <element signature="e#1625#1646#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +107,7 @@
       <file leaf-file-name="TrueFalse.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/TrueFalse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="570">
+            <state line="30" column="5" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -109,7 +116,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+            <state line="17" column="19" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -118,7 +125,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="39" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="10" column="39" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -174,8 +181,9 @@
         <option value="$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/TrueFalse.java" />
         <option value="$PROJECT_DIR$/GeoQuiz/src/main/res/layout/activity_quiz.xml" />
         <option value="$PROJECT_DIR$/GeoQuiz/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/QuizActivity.java" />
         <option value="$PROJECT_DIR$/GeoQuiz/src/main/res/layout-lat/activity_quiz.xml" />
+        <option value="$PROJECT_DIR$/GeoQuiz/src/main/res/layout-land/activity_quiz.xml" />
+        <option value="$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/QuizActivity.java" />
       </list>
     </option>
   </component>
@@ -312,6 +320,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-land" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoQuiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoQuizProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoQuiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -385,11 +423,49 @@
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoQuiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoQuizProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoQuiz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,10 +481,10 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus4" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Android Tests.layout-land in GeoQuiz">
+  <component name="RunManager" selected="Android Application.GeoQuiz">
     <configuration default="false" name="layout-land in GeoQuiz" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
       <module name="GeoQuiz" />
       <option name="TESTING_TYPE" value="1" />
@@ -599,15 +675,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32262996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.67737" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32262996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -620,13 +696,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.6703125" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -706,21 +782,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/QuizActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1650">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2113#2271#0" expanded="true" />
+            <element signature="e#2260#2261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/TrueFalse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="39" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/QuizActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="47" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1215">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1173#1177#0" expanded="true" />
-            <element signature="e#1275#1279#0" expanded="true" />
-            <element signature="e#1704#1933#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-            <element signature="e#2039#2197#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2305#2464#0" expanded="true" />
-            <element signature="e#2453#2454#0" expanded="true" />
-            <element signature="e#2570#2799#0" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
-            <element signature="e#2905#3144#0" expanded="true" />
-            <element signature="e#3133#3134#0" expanded="true" />
+            <element signature="e#2113#2271#0" expanded="true" />
+            <element signature="e#2260#2261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,17 +831,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/res/layout/activity_quiz.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="38" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="645">
           <folding>
-            <element signature="e#829#850#0" expanded="true" />
-            <element signature="e#1051#1073#0" expanded="true" />
-            <element signature="e#1677#1698#0" expanded="true" />
+            <element signature="e#829#850#0" expanded="false" />
+            <element signature="e#1051#1073#0" expanded="false" />
+            <element signature="e#1677#1698#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/AndroidManifest.xml">
@@ -775,17 +873,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/res/layout/activity_quiz.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="1737" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
           <folding>
-            <element signature="e#829#850#0" expanded="true" />
-            <element signature="e#1051#1073#0" expanded="true" />
-            <element signature="e#1677#1698#0" expanded="true" />
+            <element signature="e#829#850#0" expanded="false" />
+            <element signature="e#1051#1073#0" expanded="false" />
+            <element signature="e#1677#1698#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/TrueFalse.java">
@@ -796,32 +894,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/res/layout-land/activity_quiz.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="42" selection-start="1456" selection-end="1456" vertical-scroll-proportion="-22.222221" vertical-offset="15" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="-3.925926" vertical-offset="239" max-vertical-offset="840">
+          <folding>
+            <element signature="e#879#900#0" expanded="true" />
+            <element signature="e#1101#1123#0" expanded="true" />
+            <element signature="e#1374#1395#0" expanded="true" />
+            <element signature="e#1625#1646#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GeoQuiz/src/main/java/com/example/geoquiz/QuizActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="330" selection-end="330" vertical-scroll-proportion="-0.76642334" vertical-offset="525" max-vertical-offset="1650">
+        <state line="103" column="64" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.82168674" vertical-offset="994" max-vertical-offset="1620">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1173#1177#0" expanded="true" />
-            <element signature="e#1275#1279#0" expanded="true" />
-            <element signature="e#1704#1933#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-            <element signature="e#2039#2197#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2305#2464#0" expanded="true" />
-            <element signature="e#2453#2454#0" expanded="true" />
-            <element signature="e#2570#2799#0" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
-            <element signature="e#2905#3144#0" expanded="true" />
-            <element signature="e#3133#3134#0" expanded="true" />
+            <element signature="e#2113#2271#0" expanded="true" />
+            <element signature="e#2260#2261#0" expanded="true" />
           </folding>
         </state>
       </provider>
