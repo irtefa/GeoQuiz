@@ -126,6 +126,16 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="activity_quiz"
+                path="/Users/mohdirtefa/AndroidStudioProjects/GeoQuizProject/GeoQuiz/src/main/res/layout-lat/activity_quiz.xml"
+                qualifiers="lat"
+                type="layout" />
+            <file
+                name="activity_quiz"
+                path="/Users/mohdirtefa/AndroidStudioProjects/GeoQuizProject/GeoQuiz/src/main/res/layout-land/activity_quiz.xml"
+                qualifiers="land"
+                type="layout" />
         </source>
         <source path="/Users/mohdirtefa/AndroidStudioProjects/GeoQuizProject/GeoQuiz/build/res/rs/debug" />
     </dataSet>
